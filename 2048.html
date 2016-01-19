@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel='stylesheet' type='text/css' href='2048.css'>
+        <title>2048 | Game</title>
+        <script src = '2048.js' type='application/ecmascript'></script>
+    </head>
+    
+    <body>
+        
+        <div id='maincontainer'>
+            <div id='top'>
+                <div class='twozerofoureightbig'></div>
+                <div id='right'>
+                    <div id='scoreTile' class='score'></div>
+                    <div id='highScoreTile' class='highscore'></div>
+                    <div id='newGame'></div>
+                    <div id='undo'></div>
+                    
+                </div>
+            </div>
+            <div id='container'>
+                <div id='gameOver'>
+                    <h1>Game over!</h1>
+                    <input id='tryAgain' class="button" type="submit" value="Try again">
+                </div>
+                
+                <div id='win'>
+                    <h1>You Win!</h1>
+                    <input id='afterWinTryAgain' class="button" type="submit" value="Try again">
+                </div>
+                
+                <div id='first' class='tile'></div>
+                <div id='second' class='tile'></div>
+                <div id='third' class='tile'></div>
+                <div id='fourth' class='tile right'></div>
+                <div id='fifth' class='tile'></div>
+                <div id='sixth' class='tile'></div>
+                <div id='seventh' class='tile'></div>
+                <div id='eighth' class='tile right'></div>
+                <div id='ninth' class='tile'></div>
+                <div id='tenth' class='tile'></div>
+                <div id='eleventh' class='tile'></div>
+                <div id='twelfth' class='tile right'></div>
+                <div id='thirteenth' class='tile bottom'></div>
+                <div id='fourteenth' class='tile bottom'></div>
+                <div id='fifteenth' class='tile bottom'></div>
+                <div id='sixteenth' class='tile right bottom'></div>
+            </div>
+            
+        </div>
+        <script>
+            function init(){
+                myFunction();
+            }
+            window.addEventListener('load',myFunction);
+        </script>
+    </body>
+    
+</html>
